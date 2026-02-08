@@ -48,12 +48,12 @@ export const UserMenu: React.FC = () => {
   // 豆瓣数据源选项
   const doubanDataSourceOptions = [
     { value: 'direct', label: '实例服务端（直接请求豆瓣）' },
-    { value: 'cors-proxy-zwei', label: 'Cors Proxy By Zwei' },
+    { value: 'cors-proxy-zwei', label: 'Cors Proxy By wei' },
     {
       value: 'cmliussss-cdn-tencent',
-      label: '豆瓣 CDN By CMLiussss（腾讯云）',
+      label: '豆瓣 CDN By CM（腾讯云）',
     },
-    { value: 'cmliussss-cdn-ali', label: '豆瓣 CDN By CMLiussss（阿里云）' },
+    { value: 'cmliussss-cdn-ali', label: '豆瓣 CDN By CM（阿里云）' },
     { value: 'cors-anywhere', label: 'Cors Anywhere（20 qpm）' },
     { value: 'custom', label: '自定义代理' },
   ];
@@ -65,9 +65,9 @@ export const UserMenu: React.FC = () => {
     { value: 'img3', label: '豆瓣精品 CDN（阿里云）' },
     {
       value: 'cmliussss-cdn-tencent',
-      label: '豆瓣 CDN By CMLiussss（腾讯云）',
+      label: '豆瓣 CDN By CM（腾讯云）',
     },
-    { value: 'cmliussss-cdn-ali', label: '豆瓣 CDN By CMLiussss（阿里云）' },
+    { value: 'cmliussss-cdn-ali', label: '豆瓣 CDN By CM（阿里云）' },
     { value: 'custom', label: '自定义代理' },
   ];
 
@@ -347,14 +347,14 @@ export const UserMenu: React.FC = () => {
     switch (dataSource) {
       case 'cors-proxy-zwei':
         return {
-          text: 'Thanks to @Zwei',
-          url: 'https://github.com/bestzwei',
+          text: 'Thanks to @H梦衣馆赞助',
+          url: 'https://store.789168.xyz',
         };
       case 'cmliussss-cdn-tencent':
       case 'cmliussss-cdn-ali':
         return {
-          text: 'Thanks to @CMLiussss',
-          url: 'https://github.com/cmliu',
+          text: 'Thanks to @H网易云赞助',
+          url: 'https://music.789168.xyz',
         };
       default:
         return null;
